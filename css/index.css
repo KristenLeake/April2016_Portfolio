@@ -1,15 +1,10 @@
-body {
-    background-color: rgb(149, 149, 149);
+a {
+    text-decoration: none;
 }
 
-li {
-    display: inline-flex;
-    position: relative;
-    line-height: 3em;
-    font-family: 'Enriqueta', serif;
-    font-weight: 300;
-    font-size: 20px;
-    margin-left: 20px;
+#bs-example-collapse-navbar1 {
+    float: left;
+    letter-spacing: 2px;
 }
 
 footer {
@@ -20,11 +15,40 @@ footer {
     text-align: center;
 }
 
+body {
+    /*    background-color: rgb(149, 149, 149);*/
+}
+
+li {
+    display: inline-flex;
+    position: relative;
+    line-height: 3em;
+    font-color: rgb(95, 94, 95);
+    font-family: 'Enriqueta', serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.title {
+    padding-top: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(149, 149, 149);
+}
+
 p {
     font-family: 'Enriqueta', serif;
     font-weight: 700;
     float: left;
     top: 10px;
+}
+
+/*social-icon {
+    float: right;
+}*/
+.subtitle {
+    padding-top: 100px
 }
 
 ul {
@@ -34,17 +58,18 @@ ul {
 }
 
 .banner {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    background-color: rgb(149, 149, 149);
+    padding: 0px;
+    /*    background-color: rgb(149, 149, 149);
+*/
 }
 
-.row .img-responsive {
-    border-radius: 5px;
-    margin-left: 10px;
-    padding: 290px 10px 0px 10px;
+#thumbnails {
+
+    padding-top: 0px;
+    background-color: rgb(149, 149, 149);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .container-fluid {
@@ -58,6 +83,7 @@ ul {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
+    rgb(149, 149, 149);
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -110,11 +136,13 @@ ul {
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+
 body {
-    font-family: 'Lato', sans-serif;
-    color: #FFF;
-    background: #322f30;
-    -webkit-font-smoothing: antialiased;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  background: #322f30;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -122,9 +150,9 @@ a {
     color: #fff;
 }
 
-p > a:hover {
+p > a:hover{
     color: #d9d9d9;
-    text-decoration: underline;
+    text-decoration:  underline;
 }
 
 h1,
@@ -133,34 +161,39 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 1% 0 1% 0;
+    margin:  1% 0 1% 0;
 }
+
+
 
 ._12 {
     font-size: 1.2em;
+
 }
 
 ._14 {
     font-size: 1.4em;
+
 }
 
 ul {
-    padding: 0;
+    padding:0;
     list-style: none;
 }
 
 .footer-social-icons {
     width: 350px;
-    display: block;
-    margin: 0 auto;
+    display:block;
+  margin: 0 auto;
 }
 
 .social-icon {
     color: #fff;
 }
 
-ul.social-icons {
+ul.social-icons {   
     margin-top: 10px;
+
 }
 
 .social-icons li {
@@ -169,32 +202,18 @@ ul.social-icons {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
 }
 
-.fa-facebook {
-    padding: 10px 14px 7px 14px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-
 .fa-twitter {
-    padding: 10px 10px 7px 10px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
+    padding:10px 10px 7px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: rgb(95, 94, 95);
 }
 
 .fa-twitter:hover {
@@ -202,13 +221,13 @@ ul.social-icons {
 }
 
 .fa-youtube {
-    padding: 10px 12px 7px 11px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
+    padding:10px 12px 7px 11px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: rgb(95, 94, 95);
 }
 
 .fa-youtube:hover {
@@ -216,22 +235,15 @@ ul.social-icons {
 }
 
 .fa-linkedin {
-    padding: 10px 11px 8px 11px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
+    padding:10px 11px 8px 11px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
+    background-color: rgb(95, 94, 95);
 }
 
 .fa-linkedin:hover {
     background-color: #0073a4;
-}
-
-
-/*/////Social Media Styling End //////*/
-
-.clearfix {
-    clear: both;
 }
