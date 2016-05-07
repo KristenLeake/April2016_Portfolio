@@ -1,0 +1,197 @@
+#portfolio {
+    body {
+        background-image: url("img/Page_Portfolio.png");
+        background-repeat: no-repeat;
+    }
+    footer {
+        background-color: rgb(175, 198, 70);
+        height: 80px;
+        display: flex;
+        /*justify-content: space-between;*/
+        text-align: center;
+        padding: 80px 20px 20px 40px;
+    }
+    li {
+        display: inline-flex;
+        position: relative;
+        line-height: 3em;
+        font-family: 'Enriqueta', serif;
+        font-weight: 300;
+        font-size: 20px;
+        background-color: rgb(217, 217, 217);
+    }
+    p {
+        font-family: 'Enriqueta', serif;
+        font-weight: 700;
+    }
+    .row .img-responsive {
+        padding: 300px 10px 80px 10px;
+    }
+    #project1 {
+        padding-top: 400px;
+        border-radius: 20px;
+        border-color: transparent;
+        margin-right: 0px;
+    }
+    #project2 {
+        padding-top: 400px;
+        border-color: transparent;
+        /*   margin: 2.5% 2.5% 0 2.5%;`*/
+    }
+    #project3 {
+        padding-top: 400px;
+        border-color: transparent;
+        /*   margin: 2.5% 2.5% 0 2.5%;`*/
+    }
+    #project4 {
+        padding-top: 400px;
+        border-color: transparent;
+        /*   margin: 2.5% 2.5% 0 2.5%;`*/
+    }
+    /* Float Shadow */
+    .hvr-float-shadow {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+    .hvr-float-shadow:before {
+        pointer-events: none;
+        position: absolute;
+        z-index: -1;
+        content: '';
+        top: 100%;
+        left: 5%;
+        height: 0px;
+        width: 90%;
+        opacity: 0;
+        background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+        /* W3C */
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-property: transform, opacity;
+        transition-property: transform, opacity;
+    }
+    .hvr-float-shadow:hover,
+    .hvr-float-shadow:focus,
+    .hvr-float-shadow:active {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-30px);
+        /* move the element up by 5px */
+    }
+    .hvr-float-shadow:hover:before,
+    .hvr-float-shadow:focus:before,
+    .hvr-float-shadow:active:before {
+        opacity: 1;
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+        /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+    }
+    /*/////      Social Media Styling      /////*/
+    @import url(http://fonts.googleapis.com/css?family=Lato);
+    @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    p > a:hover {
+        color: #d9d9d9;
+        text-decoration: underline;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 1% 0 1% 0;
+    }
+    ._12 {
+        font-size: 1.2em;
+    }
+    ._14 {
+        font-size: 1.4em;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    .footer-social-icons {
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    .social-icon {
+        color: #fff;
+    }
+    ul.social-icons {
+        margin-top: 10px;
+    }
+    .social-icons li {
+        vertical-align: top;
+        display: inline;
+    }
+    .social-icons a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .fa-facebook {
+        padding: 10px 14px 7px 14px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-facebook:hover {
+        background-color: #3d5b99;
+    }
+    .fa-twitter {
+        padding: 10px 10px 7px 10px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-twitter:hover {
+        background-color: #00aced;
+    }
+    .fa-youtube {
+        padding: 10px 12px 7px 11px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-youtube:hover {
+        background-color: #e64a41;
+    }
+    .fa-linkedin {
+        padding: 10px 11px 8px 11px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-linkedin:hover {
+        background-color: #0073a4;
+    }
+    /*/////Social Media Styling End //////*/
+}
+

@@ -1,0 +1,23 @@
+#bs-example-collapse-navbar1 {
+    float: left;
+    letter-spacing: 2px;
+    
+}
+
+@import 'venders/hover.css';
+
+a {
+    text-decoration: none;
+    color: rgb(104, 114, 107) !important;
+}
+
+li {
+        display: inline-flex;
+        position: relative;
+        line-height: 3em;
+        font-color: rgb(95, 94, 95);
+        font-family: 'Enriqueta', serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 20px;
+    }
